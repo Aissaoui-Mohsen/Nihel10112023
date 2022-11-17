@@ -47,9 +47,12 @@ public class PageMenu {
 	public static final ButtonElement NeoMobileButton =new ButtonElement("Bouton Neo.mobile",
 			By.id("menu-item-25985"));
 
+//Nada
+	//Nos projets
 
+	public static final ButtonElement nosprojets=new ButtonElement("Nos Projets",By.xpath("//li[@id='menu-item-25988']"));
 
-
+	public static final ButtonElement Neoconseil =new ButtonElement("Neo conseil",By.id("menu-item-25987"));
 
 
 }
