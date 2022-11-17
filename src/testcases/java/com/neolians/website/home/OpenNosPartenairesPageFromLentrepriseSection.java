@@ -1,0 +1,43 @@
+package com.neolians.website.home;
+
+import com.neolians.common.utils.report.Report;
+import com.neolians.website.functions.general.Errors;
+import com.neolians.website.functions.general.Footer;
+import com.neolians.website.functions.general.Menu;
+import com.neolians.website.functions.pages.Home;
+import com.neolians.website.functions.pages.NosPartenaires;
+import com.neolians.website.utils.report.NeoliansTestcase;
+import io.github.artsok.RepeatedIfExceptionsTest;
+
+public class OpenNosPartenairesPageFromLentrepriseSection extends NeoliansTestcase  {
+
+
+    @RepeatedIfExceptionsTest(repeats = 1, suspend = 5000L, name = "checkNosPartenairesPage")
+    void checkNosPartenairesPage() {
+
+
+        Report.newStep(1, "Open NosPartenaires Page");
+        Home.openPageNosPartenaires();
+
+        Report.newStep(2, "Verifie Menu");
+        Menu.verifieMenu();
+
+        Report.newStep(3, "Verifie Footer");
+        Footer.verifieFooter();
+
+        Report.newStep(4, "Check No error");
+        Errors.checkNoErrors();
+
+        Report.newStep(5, "Check NosPartenaires Page");
+        NosPartenaires.verifiePageNosPartenaires();
+
+
+
+
+
+
+
+
+}
+
+}
