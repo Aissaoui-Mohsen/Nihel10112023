@@ -1,8 +1,10 @@
 package com.neolians.website.functions.pages;
 
 
+import com.neolians.website.functions.general.Footer;
+import com.neolians.website.repository.general.PageFooter;
 import com.neolians.website.repository.general.PageMenu;
-import com.neolians.website.repository.pages.PageHome;
+import com.neolians.website.repository.pages.*;
 import com.neolians.website.repository.pages.PageNeoMobile;
 
 public class Home {
@@ -240,4 +242,45 @@ public class Home {
 
 
 
+    public static void openNosprojets() {
+        PageMenu.entreprise.click();
+        PageMenu.nosprojets.click();
+
+    }
+
+    public static void openLinkedlndepuislabarreenhautdepage() {
+        PageMenu.iconLinkedIn1.click();
+
+    }
+
+    public static void NeoServicesviaPageHome() {
+        PageHome.ensavoirPlusNeoServices.click();
+
+    }
+
+    public static void openLinkedlndepuislabarreenpieddepage() {
+        PageFooter.iconLinkedIn2.click();
+        PageLinkedlnFromFooterBar.linkedlndepuislabarreenpieddepage.assertPresent("la page de linkedln s'affiche");
+    }
+
+    public static void openNeoTra() {
+        PageHome.url.openUrl();
+        PageMenu.nosOffres.click();
+        PageMenu.NeoServicesButton.moveTo();
+        PageNeoServices.neoTRA.click();
+
+
+    }
+
+    public static void NeoConseil() {
+        PageMenu.nosOffres.click();
+        PageMenu.Neoconseil.click();
+
+
+    }
+
+    public static void openNeoConseilviaPageHome() {
+
+        PageHome.ensavoirPlusNeoConseil.click();
+    }
 }
