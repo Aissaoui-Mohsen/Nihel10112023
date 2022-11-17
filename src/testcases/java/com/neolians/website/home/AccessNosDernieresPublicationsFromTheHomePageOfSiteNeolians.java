@@ -16,7 +16,7 @@ public class AccessNosDernieresPublicationsFromTheHomePageOfSiteNeolians extends
         Home.openPage();
 
         Report.newStep(2, "Nos dernières publications");
-        PageHome.Nosdernièrespublications.assertPresent();
+        PageHome.titleNosDernierePublications.assertPresent();
 
 
     }
