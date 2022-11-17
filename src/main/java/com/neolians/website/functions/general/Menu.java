@@ -9,6 +9,14 @@ public class Menu {
      */
     public static void verifieMenu(){
         PageMenu.neoliansLogo.assertPresent();
+
         PageMenu.home.assertPresent();
+        PageMenu.entreprise.assertPresent();
+        PageMenu.nosOffres.assertPresent();
+        PageMenu.nousRejoindre.assertPresent();
+        PageMenu.contact.assertPresent();
+        PageMenu.iconLinkedIn1.assertPresent();
+        PageMenu.NosPartenairesButton.assertPresent();
+
     }
 }

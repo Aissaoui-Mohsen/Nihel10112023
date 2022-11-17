@@ -1284,11 +1284,12 @@ public abstract class SeleniumObjectsBase implements WebElement {
 	// region Assert Equals
 
 	/**
-	 * assert if the inner text or value of the web element
-	 *
-	 * @param expected Expected inner text or value or null if empty
-	 */
-	public void assertEquals(String expected) {
+     * assert if the inner text or value of the web element
+     *
+     * @param expected     Expected inner text or value or null if empty
+     * @param contenuTitle
+     */
+	public void assertEquals(String expected, String contenuTitle) {
 		assertEquals(expected, true);
 	}
 
