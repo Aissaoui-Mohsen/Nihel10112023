@@ -3,6 +3,7 @@ package com.neolians.website.home;
 import com.neolians.common.utils.report.Report;
 import com.neolians.website.functions.general.Menu;
 import com.neolians.website.functions.pages.Home;
+import com.neolians.website.functions.pages.NeoServices;
 import com.neolians.website.repository.pages.PageNeoServices;
 import com.neolians.website.repository.pages.PageNosProjets;
 import com.neolians.website.utils.report.NeoliansTestcase;
