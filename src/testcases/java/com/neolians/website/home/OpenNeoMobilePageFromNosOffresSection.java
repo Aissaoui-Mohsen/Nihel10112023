@@ -15,22 +15,23 @@ public class OpenNeoMobilePageFromNosOffresSection extends NeoliansTestcase {
     @RepeatedIfExceptionsTest(repeats = 1, suspend = 5000L, name = "checkNeoMobilePage")
     void OpenNeoMobilePageFromNosOffresSection() {
 
+        Report.newStep(1, "Open Home Page");
+        Home.openPage();
 
-        Report.newStep(1, "Open NeoMobile Page");
+        Report.newStep(2, "Open NeoMobile Page");
         Home.openPageNeoMobile();
 
-        Report.newStep(2, "Verifie Menu");
+        Report.newStep(3, "Verify Menu");
         Menu.verifieMenu();
 
-        Report.newStep(3, "Verifie Footer");
+        Report.newStep(4, "Verify Footer");
         Footer.verifieFooter();
 
-        Report.newStep(4, "Check No error");
+        Report.newStep(5, "Check No error");
         Errors.checkNoErrors();
 
-        Report.newStep(5, "Check NeoMobile Page");
-        NeoMobile.verifiePageNeoMobile();
-
+        Report.newStep(6, "Check NeoMobi
+       
 
     }
 }
