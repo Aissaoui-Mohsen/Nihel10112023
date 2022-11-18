@@ -17,6 +17,7 @@ public class Menu {
         PageMenu.contact.assertPresent();
         PageMenu.iconLinkedIn1.assertPresent();
         PageMenu.NosPartenairesButton.assertPresent();
+        PageMenu.nosprojets.assertPresent();
 
     }
 }
