@@ -13,7 +13,7 @@ public class NeoServices {
      * Ouvre la page Neo Services
      */
 
-    public static void openPage() {
+    public static void openPageNeoServicedepuishome() {
 
         PageNeoServices.url.openUrl();
         PageMenu.neoliansLogo.assertPresent();
@@ -24,6 +24,12 @@ public class NeoServices {
         PageNeoServices.neomobile.assertPresent();
         PageNeoServices.neoTRA.assertPresent();
         PageNeoServices.paragraphe3.assertPresent();
+        PageNeoServices.imageneoediteur.assertPresent();
+        PageNeoServices.imageneoexternalisation.assertPresent();
+        PageNeoServices.imageneomobile.assertPresent();
+        PageNeoServices.imageneotra.assertPresent();
+        PageNeoServices.image1.assertPresent();
+        PageNeoServices.image2.assertPresent();
 
     }
 }
