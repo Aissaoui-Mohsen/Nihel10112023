@@ -16,20 +16,28 @@ public class OpenNosPartenairesPageFromLentrepriseSection extends NeoliansTestca
     void checkNosPartenairesPage() {
 
 
-        Report.newStep(1, "Open NosPartenaires Page");
+        Report.newStep(1, "Open Home Page");
+        Home.openPage();
+
+
+        Report.newStep(2, "Open NosPartenaires Page");
         Home.openPageNosPartenaires();
 
-        Report.newStep(2, "Verifie Menu");
+
+        Report.newStep(3, "Verify Menu");
         Menu.verifieMenu();
 
-        Report.newStep(3, "Verifie Footer");
+
+        Report.newStep(4, "Check NosPartenaires Page");
+        NosPartenaires.verifiePageNosPartenaires();
+
+
+        Report.newStep(5, "Verify Footer");
         Footer.verifieFooter();
 
-        Report.newStep(4, "Check No error");
-        Errors.checkNoErrors();
 
-        Report.newStep(5, "Check NosPartenaires Page");
-        NosPartenaires.verifiePageNosPartenaires();
+        Report.newStep(6, "Check No error");
+        Errors.checkNoErrors();
 
 
 
