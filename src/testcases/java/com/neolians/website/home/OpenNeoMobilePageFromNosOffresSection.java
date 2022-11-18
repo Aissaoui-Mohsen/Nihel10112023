@@ -30,7 +30,8 @@ public class OpenNeoMobilePageFromNosOffresSection extends NeoliansTestcase {
         Report.newStep(5, "Check No error");
         Errors.checkNoErrors();
 
-        Report.newStep(6, "Check NeoMobi
+        Report.newStep(6, "Check NeoMobile Page");
+        NeoMobile.verifiePageNeoMobile();
        
 
     }
