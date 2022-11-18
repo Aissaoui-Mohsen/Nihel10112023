@@ -18,26 +18,17 @@ public class OpenTheNeoServicesSubSectionFromTheHomePage extends NeoliansTestcas
         Report.newStep(2, "La page NeoServices");
         Home.NeoServicesviaPageHome();
 
-        Report.newStep(3, "vérifier la présence paragraphe1");
-        PageNeoServices.paragraphe1.assertPresent();
+        Report.newStep(3, "Verifie les insertions");
+        NeoServices.openPageNeoServicedepuishome();
 
-        Report.newStep(4, "vérifier la présence de paragraphe2");
-        PageNeoServices.paragraphe2.assertPresent();
+        Report.newStep(4, "Verifie Menu");
+        Menu.verifieMenu();
 
-        Report.newStep(5, "Vérifier la présence du bouton neo éditeur");
-        PageNeoServices.neoediteur.assertPresent();
+        Report.newStep(5, "Check No error");
+        Errors.checkNoErrors();
 
-        Report.newStep(6, "Vérifier la présence du bouton neo externalisation");
-        PageNeoServices.neoexternalisaton.assertPresent();
-
-        Report.newStep(7, "Vérifier la présence du bouton neo mobile");
-        PageNeoServices.neomobile.assertPresent();
-
-        Report.newStep(8, "Vérifier la présence du bouton neo TRA");
-        PageNeoServices.neoTRA.assertPresent();
-
-        Report.newStep(9, "vérifier la présence paragraphe3");
-        PageNeoServices.paragraphe3.assertPresent();
+        Report.newStep(6, "Verifie Footer");
+        Footer.verifieFooter();
 
     }
 }
