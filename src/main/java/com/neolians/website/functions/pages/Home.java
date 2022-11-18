@@ -243,8 +243,10 @@ public class Home {
 
 
     public static void openNosprojets() {
-        PageMenu.entreprise.click();
-        PageMenu.nosprojets.click();
+            PageHome.url.openUrl();
+            PageMenu.entreprise.moveTo();
+            PageMenu.nosprojets.click();
+
 
     }
 
