@@ -16,21 +16,23 @@ public class OpenNousRejoindrePageFromHomePage extends NeoliansTestcase {
     void checkNousRejoindrePage() {
 
 
-        Report.newStep(1, "Open NousRejoindre Page");
+        Report.newStep(1, "Open Home Page");
+        Home.openPage();
+
+        Report.newStep(2, "Open NousRejoindre Page");
         Home.openPageNousRejoindre();
 
-        Report.newStep(2, "Verifie Menu");
+        Report.newStep(3, "Verify Menu");
         Menu.verifieMenu();
 
-        Report.newStep(3, "Verifie Footer");
+        Report.newStep(4, "Verify Footer");
         Footer.verifieFooter();
 
-        Report.newStep(4, "Check No error");
+        Report.newStep(5, "Check No error");
         Errors.checkNoErrors();
 
-        Report.newStep(5, "Check Nous Rejoindre Page");
+        Report.newStep(6, "Check Nous Rejoindre Page");
         NousRejoindre.verifiePageNosRejoindre();
-
 
     }
 }
