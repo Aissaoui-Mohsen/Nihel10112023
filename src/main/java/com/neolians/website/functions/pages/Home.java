@@ -250,7 +250,8 @@ public class Home {
 
     }
 
-    public static void openLinkedlndepuislabarreenhautdepage() {
+     public static void openLinkedlndepuislabarreenhautdepage() {
+        PageHome.url.openUrl();
         PageMenu.iconLinkedIn1.click();
 
     }
