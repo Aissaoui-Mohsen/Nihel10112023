@@ -210,7 +210,7 @@ public class Home {
      */
 
     public static void openPageNosPartenaires(){
-        PageHome.url.openUrl();
+        
         PageMenu.entreprise.moveTo();
         PageMenu.NosPartenairesButton.click();
 
@@ -219,7 +219,7 @@ public class Home {
 
 
     public static void openPageNousRejoindre(){
-        PageHome.url.openUrl();
+       
         PageMenu.nousRejoindre.click();
 
 
@@ -229,7 +229,7 @@ public class Home {
 
     public static void openPageNeoMobile(){
 
-        PageHome.url.openUrl();
+        
         PageMenu.nosOffres.moveTo();
         PageMenu.NeoServicesButton.moveTo();
         PageMenu.NeoMobileButton.click();
