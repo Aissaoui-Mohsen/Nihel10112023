@@ -1,6 +1,8 @@
 package com.neolians.website.home;
 
 import com.neolians.common.utils.report.Report;
+import com.neolians.website.functions.general.Errors;
+import com.neolians.website.functions.general.Footer;
 import com.neolians.website.functions.general.Menu;
 import com.neolians.website.functions.pages.Home;
 import com.neolians.website.functions.pages.NeoServices;
