@@ -283,4 +283,14 @@ public class Home {
 
         PageHome.ensavoirPlusNeoConseil.click();
     }
+
+    /**
+     "Nos dernière publications"
+     */
+    public static void VerifyNosdernièrespublication(){
+
+        PageHome.titleNosDernierePublications.assertPresent();
+    }
+
+
 }
