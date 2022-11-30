@@ -4,16 +4,17 @@ import com.neolians.website.repository.general.PageMenu;
 import com.neolians.website.repository.pages.PageNeoServices;
 
 public class NeoServices {
+
     private NeoServices() {
         throw new IllegalStateException("Utility class");
     }
-
 
     /**
      * Ouvre la page Neo Services
      */
 
     public static void openPageNeoServicedepuishome() {
+
 
         PageNeoServices.url.openUrl();
         PageMenu.neoliansLogo.assertPresent();
@@ -32,4 +33,5 @@ public class NeoServices {
         PageNeoServices.image2.assertPresent();
 
     }
+
 }

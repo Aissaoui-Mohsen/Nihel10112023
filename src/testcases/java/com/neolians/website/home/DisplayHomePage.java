@@ -9,7 +9,7 @@ import com.neolians.website.utils.report.NeoliansTestcase;
 import io.github.artsok.RepeatedIfExceptionsTest;
 
 
-public class DisplayHomePage extends NeoliansTestcase {
+public class  DisplayHomePage extends NeoliansTestcase {
 
     @RepeatedIfExceptionsTest(repeats = 1, suspend = 5000L, name = "Check Home Page")
     void checkHomePage() {
