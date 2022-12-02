@@ -54,17 +54,6 @@ public class PageMenu {
 
 	public static final ButtonElement Neoconseil =new ButtonElement("Neo conseil",By.id("menu-item-25987"));
 
-	public static final ButtonElement presentation=new ButtonElement("Présentation",By.xpath("//a[@href=\"https://neolians.com/presentation/\"]"));
-	public static final ButtonElement impactsocial=new ButtonElement("Impact social", By.xpath("//li/a[@href=\"https://neolians.com/notre-impact-social/\"]"));
-
-	public static final ButtonElement neoediteur=new ButtonElement("neo.éditeur",By.xpath("//a[@href=\"https://neolians.com/neo-editeur/\"]"));
-
-	public static final ButtonElement Neoservice =new ButtonElement("Neo service",By.xpath("//li/a[@href=\"https://neolians.com/neo-services/\"]"));
-
-	public static final ButtonElement Neointegration =new ButtonElement("neo.integration",By.xpath("//a[@href=\"https://neolians.com/neo-integration/\"]"));
-
-	public static final ButtonElement Neoacademy =new ButtonElement("Neo academy",By.xpath("//li/a[@href=\"https://neolians.com/neo-academy/\"]"));
-
-	public static final ButtonElement Neosupport =new ButtonElement("Neo support",By.xpath("//li/a[@href=\"https://neolians.com/neo-support/\"]"));
+   public static final ButtonElement NeoTRAButton =new ButtonElement("Neo TRA Button",By.id("menu-item-25982"));
 
 }

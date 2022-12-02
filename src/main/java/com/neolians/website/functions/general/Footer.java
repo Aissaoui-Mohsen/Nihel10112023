@@ -1,6 +1,8 @@
 package com.neolians.website.functions.general;
 
 import com.neolians.website.repository.general.PageFooter;
+import com.neolians.website.repository.general.PageMenu;
+import com.neolians.website.repository.pages.PageHome;
 
 public class Footer {
 
@@ -23,6 +25,27 @@ public class Footer {
         PageFooter.nousRejoindre.assertPresent();
         PageFooter.siteDeveloppeParAbcGroup.assertPresent();
         PageFooter.iconLinkedIn2.assertPresent();
+    }
+
+    public static void openLinkedlndfromfooterbar() {
+        PageFooter.iconLinkedIn2.moveTo();
+        PageFooter.iconLinkedIn2.click();
+
+
+     }
+
+    public static void openTestLogicielfromfooterbar() {
+        PageHome.url.openUrl();
+        PageFooter.testLogiciel.moveTo();
+        PageFooter.testLogiciel.click();
+    }
+
+
+    public static void openOptimiservosprocessdetestfromfooterbar() {
+        PageHome.url.openUrl();
+        PageFooter.optimiserVosProcessDeTest.click();
+
+
     }
 
 
