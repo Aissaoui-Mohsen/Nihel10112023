@@ -239,16 +239,20 @@ public class Home {
 
     }
 
-
+    /**
+     ***************Ouvrir la page Nos projets
+     */
 
 
     public static void openNosprojets() {
-        PageMenu.entreprise.click();
+        PageHome.url.openUrl();
+        PageMenu.entreprise.moveTo();
         PageMenu.nosprojets.click();
 
     }
 
     public static void openLinkedlndepuislabarreenhautdepage() {
+        PageHome.url.openUrl();
         PageMenu.iconLinkedIn1.click();
 
     }
@@ -258,29 +262,55 @@ public class Home {
 
     }
 
-    public static void openLinkedlndepuislabarreenpieddepage() {
-        PageFooter.iconLinkedIn2.click();
-        PageLinkedlnFromFooterBar.linkedlndepuislabarreenpieddepage.assertPresent("la page de linkedln s'affiche");
-    }
-
-    public static void openNeoTra() {
+    public static void openNeoTraPageFromNosoffres() {
         PageHome.url.openUrl();
-        PageMenu.nosOffres.click();
+        PageMenu.nosOffres.moveTo();
         PageMenu.NeoServicesButton.moveTo();
-        PageNeoServices.neoTRA.click();
+        PageMenu.NeoTRAButton.click();
 
 
     }
 
-    public static void NeoConseil() {
-        PageMenu.nosOffres.click();
+    public static void NeoConseilfromNosOffres() {
+
+        PageHome.url.openUrl();
+        PageMenu.nosOffres.moveTo();
         PageMenu.Neoconseil.click();
 
 
     }
 
+    public static void NeoServicesfromNosOffres() {
+
+        PageHome.url.openUrl();
+        PageMenu.nosOffres.moveTo();
+        PageMenu.NeoServicesButton.click();
+
+    }
+
     public static void openNeoConseilviaPageHome() {
 
+        PageHome.url.openUrl();
         PageHome.ensavoirPlusNeoConseil.click();
     }
+
+    /**
+                "Nos dernière publications"
+               */
+    public static void VerifyNosdernièrespublication(){
+
+        PageHome.titleNosDernierePublications.assertPresent();
+    }
+
+    /**
+     ***************Ouvrir la page neo tra depuis la page de sous section neo.services
+     */
+
+    public static void openneotradepuislasoussectionneoservices(){
+        PageHome.url.openUrl();
+        PageMenu.nosOffres.moveTo();
+        PageMenu.NeoServicesButton.click();
+        PageNeoServices.neoTRA.click();
+    }
 }
+

@@ -13,16 +13,22 @@ public class NeoServices {
      * Ouvre la page Neo Services
      */
 
-    public static void openPage() {
+    public static void openPageNeoServicedepuishome() {
 
         PageNeoServices.url.openUrl();
         PageMenu.neoliansLogo.assertPresent();
         PageNeoServices.paragraphe1.assertPresent("Vérifier la présence de paragraphe1");
         PageNeoServices.paragraphe2.assertPresent();
+        PageNeoServices.imageneoediteur.assertPresent();
         PageNeoServices.neoediteur.assertPresent();
+        PageNeoServices.imageneoexternalisation.assertPresent();
         PageNeoServices.neoexternalisaton.assertPresent();
+        PageNeoServices.imageneomobile.assertPresent();
         PageNeoServices.neomobile.assertPresent();
+        PageNeoServices.imageneotra.assertPresent();
         PageNeoServices.neoTRA.assertPresent();
+        PageNeoServices.image1.assertPresent();
+        PageNeoServices.image2.assertPresent();
         PageNeoServices.paragraphe3.assertPresent();
 
     }

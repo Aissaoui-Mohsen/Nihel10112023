@@ -54,5 +54,6 @@ public class PageMenu {
 
 	public static final ButtonElement Neoconseil =new ButtonElement("Neo conseil",By.id("menu-item-25987"));
 
+   public static final ButtonElement NeoTRAButton =new ButtonElement("Neo TRA Button",By.id("menu-item-25982"));
 
 }

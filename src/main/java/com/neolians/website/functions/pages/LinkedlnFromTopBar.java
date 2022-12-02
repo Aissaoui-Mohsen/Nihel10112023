@@ -10,9 +10,8 @@ public class LinkedlnFromTopBar {
      * Ouvre la page Linkedln
      */
 
-    public static void openPage() {
+    public static void openPagelinkedlnfromtopbar() {
 
-        PageLinkedlnFromTopBar.url.openUrl();
         PageLinkedlnFromTopBar.linkedlnneolians.assertPresent("la page de linkedln s'affiche");
     }
 }
