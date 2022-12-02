@@ -34,13 +34,9 @@ public class PageNeoServices {
     // identifier le block 3
  public static final BlockElement paragraphe3=new BlockElement("paragraphe 3", By.xpath("//div[@data-id='52708ad']"));
 
- public static final ButtonElement image1=new ButtonElement("image1",By.xpath("//div[@data-id='a7ca9cb']"));
-public static final ButtonElement image2=new ButtonElement("image2",By.xpath("//div[@data-id='7673fab']"));
 
-public static BlockElement imageneoediteur=new BlockElement("image neo éditeur",By.xpath("//img[@src='https://neolians.com/wp-content/uploads/2022/09/neo.editeurs-1-300x300-1.png']"));
-public static BlockElement imageneoexternalisation=new BlockElement("image neo externalisation",By.xpath("//img[@src='https://neolians.com/wp-content/uploads/2022/09/neo.extern-1-150x150-1.png']"));
-public static BlockElement imageneomobile=new BlockElement("image neo mobile",By.xpath("//img[@src='https://neolians.com/wp-content/uploads/2022/09/neo.mobile-1-150x150-1.png']"));
-public static BlockElement imageneotra=new BlockElement("image neo tra",By.xpath("//img[@src='https://neolians.com/wp-content/uploads/2022/09/neo.TRA_-1-150x150-1.png']"));
+
+
 
 
 
