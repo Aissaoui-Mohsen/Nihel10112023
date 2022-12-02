@@ -210,16 +210,64 @@ public class Home {
      */
 
     public static void openPageNosPartenaires(){
-        PageHome.url.openUrl();
+        
         PageMenu.entreprise.moveTo();
         PageMenu.NosPartenairesButton.click();
 
     }
 
+    public static void openPagePresentationfromlentreprise()
+    {
+        PageMenu.entreprise.moveTo();
+        PageMenu.presentation.click();
+    }
+
+    public static void openPageImpactSocialfromlentreprise()
+    {
+        PageMenu.entreprise.moveTo();
+        PageMenu.impactsocial.click();
+    }
+
+    public static void openPageNeoEditeurfromNosOffres()
+    {
+        PageMenu.nosOffres.moveTo();
+        PageMenu.Neoservice.moveTo();
+        PageMenu.neoediteur.click();
+    }
+
+    public static void openPageNeoIntegrationFromNosOffres()
+    {
+        PageMenu.nosOffres.moveTo();
+        PageMenu.Neoservice.moveTo();
+        PageMenu.Neointegration.click();
+    }
+
+    // Mohsen 25/11/2022
+    public static void openPageNeoAcademyfromNosOffres()
+    {
+
+        PageMenu.nosOffres.moveTo();
+        PageMenu.Neoacademy.click();
+    }
+    // Mohsen 25/11/2022
+    public static void openPageNeosupportFromNosOffres()
+    {
+        PageMenu.nosOffres.moveTo();
+        PageMenu.Neosupport.click();
+
+
+    }
+    // Mohsen 25/11/2022
+    public static void openPageNeoaccademyViaHomePage()
+    {
+
+        PageHome.ensavoirPlusNeoAcademy.click();
+
+    }
 
 
     public static void openPageNousRejoindre(){
-        PageHome.url.openUrl();
+       
         PageMenu.nousRejoindre.click();
 
 
@@ -229,7 +277,7 @@ public class Home {
 
     public static void openPageNeoMobile(){
 
-        PageHome.url.openUrl();
+        
         PageMenu.nosOffres.moveTo();
         PageMenu.NeoServicesButton.moveTo();
         PageMenu.NeoMobileButton.click();
@@ -295,8 +343,8 @@ public class Home {
     }
 
     /**
-                "Nos dernière publications"
-               */
+     "Nos dernière publications"
+     */
     public static void VerifyNosdernièrespublication(){
 
         PageHome.titleNosDernierePublications.assertPresent();

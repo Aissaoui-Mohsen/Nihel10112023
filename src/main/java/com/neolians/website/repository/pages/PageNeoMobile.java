@@ -15,8 +15,10 @@ public class PageNeoMobile {
 
     public static final UrlElement url2 = new UrlElement("Home url", "/neo-mobile/");
 
+
+
     public static final BlockElement paragraphe1 = new BlockElement("paragraphe de la page Neo.mobile"
-            , By.xpath("//div[@data-id='9dda502']"));
+            , By.id("1250104802"));
 
 
     public static final BlockElement contenu1paragraphe1 = new BlockElement("contenu1 du paragraphe 1 de la page Neo.mobile"
