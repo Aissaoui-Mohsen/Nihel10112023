@@ -20,6 +20,68 @@ public class Home {
 
     }
 
+    /**
+     ***************Ouvre la page neo.externalisation
+     */
+
+    public static void openPageNeoExternalisationFromNosoffres(){
+
+        PageMenu.nosOffres.moveTo();
+        PageMenu.NeoServicesButton.moveTo();
+        PageMenu.NeoExternalisationButton.click();
+    }
+
+
+    /**
+     ***************Ouvre la page neotools
+     */
+
+    public static void openPageNeoTools(){
+
+        PageMenu.nosOffres.moveTo();
+        PageMenu.NeoToolsButton.click();
+
+
+
+    }
+
+    /**
+     ***************Ouvre la page Test application mobile depuis la barre en pied de page
+     */
+
+
+    public static void openPageTestApplicationMobile(){
+
+        PageFooter.testApplicationMobile.scrollToElement();
+
+        PageFooter.testApplicationMobile.click();
+
+
+
+    }
+
+
+    /**
+     ***************Ouvre la page Nous Rejoindre depuis la barre en pied de page
+     */
+
+    public static void openPageNousRejoindreFromFooter(){
+
+        PageFooter.nousRejoindre.scrollToElement();
+        PageFooter.nousRejoindre.click();
+    }
+
+
+    /**
+     ***************Ouvre la page externaliser vos tests depuis la barre en pied de page
+     */
+
+    public static void openPageExternaliserVosTestsFromFooter(){
+
+        PageFooter.externaliserVosTests.scrollToElement();
+        PageFooter.externaliserVosTests.click();
+    }
+
 
     public static void verifyContenetPageHome() {
 
@@ -265,6 +327,9 @@ public class Home {
 
     }
 
+    /**
+     ***************Ouvre la page Nous Rejoindre
+     */
 
     public static void openPageNousRejoindre(){
        
@@ -274,7 +339,9 @@ public class Home {
 
     }
 
-
+    /**
+     ***************Ouvre la page Neo mobile
+     */
     public static void openPageNeoMobile(){
 
         
