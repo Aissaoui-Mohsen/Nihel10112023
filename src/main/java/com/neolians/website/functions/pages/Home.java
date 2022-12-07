@@ -421,12 +421,7 @@ public class Home {
      ***************Ouvrir la page neo tra depuis la page de sous section neo.services
      */
 
-    public static void openneotradepuislasoussectionneoservices(){
-        PageHome.url.openUrl();
-        PageMenu.nosOffres.moveTo();
-        PageMenu.NeoServicesButton.click();
-        PageNeoServices.neoTRA.click();
-    }
+  
 
 public static void openLinkedlndfromfooterbar() {
         
