@@ -427,5 +427,28 @@ public class Home {
         PageMenu.NeoServicesButton.click();
         PageNeoServices.neoTRA.click();
     }
+
+public static void openLinkedlndfromfooterbar() {
+        
+        PageFooter.iconLinkedIn2.click();
+
+
+     }
+
+    public static void openTestLogicielfromfooterbar() {
+      
+        PageFooter.testLogiciel.click();
+    }
+
+
+    public static void openOptimiservosprocessdetestfromfooterbar() {
+        
+        PageFooter.optimiserVosProcessDeTest.click();
+
+
+    }
+
+
+
 }
 
