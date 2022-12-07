@@ -39,4 +39,9 @@ public class NeoServices {
 
     }
 
+        public static void openneotradepuislasoussectionneoservices(){
+      
+        PageNeoServices.neoTRA.click();
+    }
+
 }
