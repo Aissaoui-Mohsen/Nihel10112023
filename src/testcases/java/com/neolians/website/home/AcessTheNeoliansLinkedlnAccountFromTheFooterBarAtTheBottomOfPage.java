@@ -26,7 +26,7 @@ public class AcessTheNeoliansLinkedlnAccountFromTheFooterBarAtTheBottomOfPage ex
         Errors.checkNoErrors();
 
         Report.newStep(4, "Verifie le bouton linkedln");
-        Footer.openLinkedlndfromfooterbar();
+        Home.openLinkedlndfromfooterbar();
 
         Report.newStep(5, "Verifie Footer");
         Footer.verifieFooter();
