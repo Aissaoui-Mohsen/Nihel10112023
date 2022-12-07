@@ -27,26 +27,7 @@ public class Footer {
         PageFooter.iconLinkedIn2.assertPresent();
     }
 
-    public static void openLinkedlndfromfooterbar() {
-        PageFooter.iconLinkedIn2.moveTo();
-        PageFooter.iconLinkedIn2.click();
-
-
-     }
-
-    public static void openTestLogicielfromfooterbar() {
-        PageHome.url.openUrl();
-        PageFooter.testLogiciel.moveTo();
-        PageFooter.testLogiciel.click();
-    }
-
-
-    public static void openOptimiservosprocessdetestfromfooterbar() {
-        PageHome.url.openUrl();
-        PageFooter.optimiserVosProcessDeTest.click();
-
-
-    }
+  
 
 
 
