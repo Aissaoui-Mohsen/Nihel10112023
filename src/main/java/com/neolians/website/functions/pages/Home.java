@@ -327,9 +327,41 @@ public class Home {
 
     }
 
-    /**
-     ***************Ouvre la page Nous Rejoindre
-     */
+    //Mohsen 02/12/2022
+
+    public static void openPageSupportInformatiqueViaFooter()
+    {
+        PageFooter.supportInformatique.click();
+
+    }
+
+    //Mohsen 02/12/2022
+
+    public static void openSiteABCgroupViaFooter()
+    {
+        PageFooter.siteDeveloppeParAbcGroup.click();
+
+
+    }
+
+    //Mohsen 02/12/2022
+
+    public static void openPageFormationAuxMetiersDuTestViaFooter()
+    {
+        //  on  peux directement faire click sans moveTo, biensure ; juste pour l'affichage de test
+
+        PageFooter.formationAuxMetiersDuTest.click();
+
+    }
+
+    //Mohsen 02/12/2022
+
+    public static void openPageNotreEngagementSocialViaFooter()
+    {
+        PageFooter.NotreEngagementSocial.click();
+
+    }
+
 
     public static void openPageNousRejoindre(){
        
@@ -442,6 +474,7 @@ public static void openLinkedlndfromfooterbar() {
 
 
     }
+
 
 
 
