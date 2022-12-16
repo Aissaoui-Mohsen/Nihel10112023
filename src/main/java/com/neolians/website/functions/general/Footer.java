@@ -1,6 +1,8 @@
 package com.neolians.website.functions.general;
 
 import com.neolians.website.repository.general.PageFooter;
+import com.neolians.website.repository.general.PageMenu;
+import com.neolians.website.repository.pages.PageHome;
 
 public class Footer {
 
@@ -24,6 +26,8 @@ public class Footer {
         PageFooter.siteDeveloppeParAbcGroup.assertPresent();
         PageFooter.iconLinkedIn2.assertPresent();
     }
+
+  
 
 
 

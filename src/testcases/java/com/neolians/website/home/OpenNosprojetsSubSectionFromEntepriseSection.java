@@ -30,7 +30,7 @@ public class OpenNosprojetsSubSectionFromEntepriseSection extends NeoliansTestca
         Errors.checkNoErrors();
 
         Report.newStep(5, "Check Nos Projets Page");
-        NosProjets.openPage();
+        NosProjets.openPageNosprojets();
 
 
 

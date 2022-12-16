@@ -20,6 +20,68 @@ public class Home {
 
     }
 
+    /**
+     ***************Ouvre la page neo.externalisation
+     */
+
+    public static void openPageNeoExternalisationFromNosoffres(){
+
+        PageMenu.nosOffres.moveTo();
+        PageMenu.NeoServicesButton.moveTo();
+        PageMenu.NeoExternalisationButton.click();
+    }
+
+
+    /**
+     ***************Ouvre la page neotools
+     */
+
+    public static void openPageNeoTools(){
+
+        PageMenu.nosOffres.moveTo();
+        PageMenu.NeoToolsButton.click();
+
+
+
+    }
+
+    /**
+     ***************Ouvre la page Test application mobile depuis la barre en pied de page
+     */
+
+
+    public static void openPageTestApplicationMobile(){
+
+        PageFooter.testApplicationMobile.scrollToElement();
+
+        PageFooter.testApplicationMobile.click();
+
+
+
+    }
+
+
+    /**
+     ***************Ouvre la page Nous Rejoindre depuis la barre en pied de page
+     */
+
+    public static void openPageNousRejoindreFromFooter(){
+
+        PageFooter.nousRejoindre.scrollToElement();
+        PageFooter.nousRejoindre.click();
+    }
+
+
+    /**
+     ***************Ouvre la page externaliser vos tests depuis la barre en pied de page
+     */
+
+    public static void openPageExternaliserVosTestsFromFooter(){
+
+        PageFooter.externaliserVosTests.scrollToElement();
+        PageFooter.externaliserVosTests.click();
+    }
+
 
     public static void verifyContenetPageHome() {
 
@@ -309,7 +371,9 @@ public class Home {
 
     }
 
-
+    /**
+     ***************Ouvre la page Neo mobile
+     */
     public static void openPageNeoMobile(){
 
         
@@ -322,18 +386,19 @@ public class Home {
 
     }
 
-
+    /**
+     ***************Ouvrir la page Nos projets
+     */
 
 
     public static void openNosprojets() {
-            PageHome.url.openUrl();
-            PageMenu.entreprise.moveTo();
-            PageMenu.nosprojets.click();
-
+        PageHome.url.openUrl();
+        PageMenu.entreprise.moveTo();
+        PageMenu.nosprojets.click();
 
     }
 
-     public static void openLinkedlndepuislabarreenhautdepage() {
+    public static void openLinkedlndepuislabarreenhautdepage() {
         PageHome.url.openUrl();
         PageMenu.iconLinkedIn1.click();
 
@@ -344,29 +409,35 @@ public class Home {
 
     }
 
-    public static void openLinkedlndepuislabarreenpieddepage() {
-        PageFooter.iconLinkedIn2.click();
-        PageLinkedlnFromFooterBar.linkedlndepuislabarreenpieddepage.assertPresent("la page de linkedln s'affiche");
-    }
-
-    public static void openNeoTra() {
+    public static void openNeoTraPageFromNosoffres() {
         PageHome.url.openUrl();
-        PageMenu.nosOffres.click();
+        PageMenu.nosOffres.moveTo();
         PageMenu.NeoServicesButton.moveTo();
-        PageNeoServices.neoTRA.click();
+        PageMenu.NeoTRAButton.click();
 
 
     }
 
-    public static void NeoConseil() {
-        PageMenu.nosOffres.click();
+    public static void NeoConseilfromNosOffres() {
+
+        PageHome.url.openUrl();
+        PageMenu.nosOffres.moveTo();
         PageMenu.Neoconseil.click();
 
 
     }
 
+    public static void NeoServicesfromNosOffres() {
+
+        PageHome.url.openUrl();
+        PageMenu.nosOffres.moveTo();
+        PageMenu.NeoServicesButton.click();
+
+    }
+
     public static void openNeoConseilviaPageHome() {
 
+        PageHome.url.openUrl();
         PageHome.ensavoirPlusNeoConseil.click();
     }
 
@@ -378,6 +449,34 @@ public class Home {
         PageHome.titleNosDernierePublications.assertPresent();
     }
 
+    /**
+     ***************Ouvrir la page neo tra depuis la page de sous section neo.services
+     */
+
+  
+
+public static void openLinkedlndfromfooterbar() {
+        
+        PageFooter.iconLinkedIn2.click();
+
+
+     }
+
+    public static void openTestLogicielfromfooterbar() {
+      
+        PageFooter.testLogiciel.click();
+    }
+
+
+    public static void openOptimiservosprocessdetestfromfooterbar() {
+        
+        PageFooter.optimiserVosProcessDeTest.click();
+
+
+    }
+
+
 
 
 }
+

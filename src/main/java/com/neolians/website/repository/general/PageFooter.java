@@ -12,19 +12,19 @@ public class PageFooter {
             By.xpath("//div[@data-id='cf5a82a']"));
 
     public static final BlockElement locationMap = new BlockElement("location Map",
-            By.xpath("//div[@data-id='c1533a3']"));
+            By.id("wpgmza_map"));
 
     public static final BlockElement testApplicationMobile =new BlockElement("Test application mobile",
-            By.linkText("Test application mobile"));
+            By.xpath("//div[@class='elementor-widget-container']//child::span//a[@href='https://neolians.com/neo-mobile/']"));
 
     public static final BlockElement testLogiciel = new BlockElement("Test logiciel",
             By.linkText("Test logiciel"));
 
     public static final BlockElement supportInformatique = new BlockElement("Support informatique",
-            By.linkText("Support informatique"));
+            By.xpath("//div[@class='elementor-widget-container']//child::span//a[@href='https://neolians.com/neo-support/']"));
 
     public static final BlockElement formationAuxMetiersDuTest = new BlockElement("Formation aux métiers du test",
-            By.linkText("Formation aux métiers du test"));
+            By.xpath("//div[@class='elementor-widget-container']//child::span//a[@href='https://neolians.com/neo-academy/']"));
 
     public static final BlockElement optimiserVosProcessDeTest = new BlockElement("Optimiser vos process de test ! ",
             By.linkText("Optimiser vos process de test !"));

@@ -10,10 +10,9 @@ public class NosProjets {
      * Ouvre la page Nos projets
      */
 
-    public static void openPage() {
+    public static void openPageNosprojets() {
 
         PageNosProjets.url.openUrl();
-       // pagenosprojets.enablan.click();
         PageNosProjets.enablon.click();
         PageNosProjets.KPMG.click();
         PageNosProjets.Sopra.click();
@@ -24,7 +23,6 @@ public class NosProjets {
         PageNosProjets.BusinessInvestigation.click();
 
 
-        //pageNosprojets.paragrapheenablan.assertpresent();
         PageNosProjets.paragraphedeenablon.assertPresent();
         PageNosProjets.paragraphedekpmg.assertPresent();
         PageNosProjets.paragraphedesopra.assertPresent();
