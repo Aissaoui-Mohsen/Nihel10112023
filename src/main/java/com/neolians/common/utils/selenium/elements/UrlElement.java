@@ -29,7 +29,7 @@ public class UrlElement {
 		return String.format(url, urlArguments);
 	}
 
-	protected String getCurrentUrl() {
+	public String getCurrentUrl() {
 		if (urlFirstParameter != null) {
 			return String.format(url, urlFirstParameter);
 		}

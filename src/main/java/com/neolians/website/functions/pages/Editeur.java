@@ -4,10 +4,8 @@ import com.neolians.website.repository.pages.PageEditeur;
 import com.neolians.website.repository.pages.PagePresentation;
 
 public class Editeur {
-    private Editeur() {
-        throw new IllegalStateException("Utility class");
-    }
-    // Ouvrir "neo.academy" depuis "Nos OFFRES/neo.services"
+
+
 
     public static void VerifyPageEditeur() {
 

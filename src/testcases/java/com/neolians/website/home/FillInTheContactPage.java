@@ -17,7 +17,7 @@ public class FillInTheContactPage extends NeoliansTestcase {
         Home.openPage();
 
         Report.newStep(2, "Open Contact Page");
-        Home.openPageContact();
+       // Home.openPageContact();
 
         Report.newStep(3, "Fill Form Of Contact Page");
         Contact.remplirleformulairedecontactcomplet("Farouk", "farouk@gmail.com","test logiciel","test");

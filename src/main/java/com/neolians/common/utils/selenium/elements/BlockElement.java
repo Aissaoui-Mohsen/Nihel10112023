@@ -62,4 +62,6 @@ public class BlockElement extends SeleniumObjectsBase {
 		js.executeScript("window.scrollTo(arguments[0],arguments[1]);", locationX, locationY);
 	}
 
+
+
 }

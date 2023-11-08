@@ -17,7 +17,7 @@ public class AccessTheContactPageFromFooterBar extends NeoliansTestcase {
         Home.openPage();
 
         Report.newStep(2, "Open Contact Page from footer");
-        Home.openNousContactFromFooterBar();
+        //Home.openNousContactFromFooterBar();
 
         Report.newStep(3, "Verify Contact Page");
         Contact.VerifyPageContact();

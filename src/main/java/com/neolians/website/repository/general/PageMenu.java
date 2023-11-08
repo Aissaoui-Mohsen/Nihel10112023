@@ -71,7 +71,7 @@ public class PageMenu {
 	public static final ButtonElement presentation=new ButtonElement("Présentation",By.xpath("//a[@href=\"https://neolians.com/presentation/\"]"));
 	public static final ButtonElement impactsocial=new ButtonElement("Impact social", By.xpath("//li/a[@href=\"https://neolians.com/notre-impact-social/\"]"));
 
-	public static final ButtonElement neoediteur=new ButtonElement("neo.éditeur",By.xpath("//a[@href=\"https://neolians.com/neo-editeur/\"]"));
+	public static final ButtonElement neoediteur=new ButtonElement("neo.éditeur",By.xpath("//div[@data-id='6f8cc7d']"));
 
 	public static final ButtonElement Neoservice =new ButtonElement("Neo service",By.xpath("//li/a[@href=\"https://neolians.com/neo-services/\"]"));
 

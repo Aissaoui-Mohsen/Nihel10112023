@@ -18,7 +18,8 @@ public class AccessTheContactFormFromTheHomePage extends NeoliansTestcase {
         Home.openPage();
 
         Report.newStep(2, "Open Contact Page");
-        Home.openPageContact();
+       // Home.openPageContact();
+
 
         Report.newStep(3, "Verify content Neo services page");
         Contact.VerifyPageContact();

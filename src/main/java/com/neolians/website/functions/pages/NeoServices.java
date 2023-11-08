@@ -1,6 +1,8 @@
 package com.neolians.website.functions.pages;
 
+import com.neolians.website.repository.general.PageFooter;
 import com.neolians.website.repository.general.PageMenu;
+import com.neolians.website.repository.pages.PageHome;
 import com.neolians.website.repository.pages.PageNeoServices;
 
 public class NeoServices {
@@ -36,6 +38,15 @@ public class NeoServices {
         PageNeoServices.imageneotra.assertPresent();
         PageNeoServices.image1.assertPresent();
         PageNeoServices.image2.assertPresent();
+
+    }
+                //  Mohsen  12/02/2022
+    public static void openPageNeoEditeurViaPageNeoService()
+    {
+      //PageHome.openneoserviceVianosOffre();
+        PageMenu.nosOffres.moveTo();
+      PageMenu.Neoservice.click();
+        PageNeoServices.neoediteur.click();
 
     }
 

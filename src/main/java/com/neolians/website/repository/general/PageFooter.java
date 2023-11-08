@@ -18,7 +18,7 @@ public class PageFooter {
             By.xpath("//div[@class='elementor-widget-container']//child::span//a[@href='https://neolians.com/neo-mobile/']"));
 
     public static final BlockElement testLogiciel = new BlockElement("Test logiciel",
-            By.linkText("Test logiciel"));
+            By.xpath("//span/a[@href='https://neolians.com/neo-services/']"));
 
     public static final BlockElement supportInformatique = new BlockElement("Support informatique",
             By.xpath("//div[@class='elementor-widget-container']//child::span//a[@href='https://neolians.com/neo-support/']"));
@@ -41,8 +41,10 @@ public class PageFooter {
     public static final BlockElement nousRejoindre = new BlockElement("Nous rejoindre",
             By.linkText("Nous rejoindre"));
 
+    //public static final BlockElement siteDeveloppeParAbcGroup = new BlockElement("Site développé par ABC Group",
+           // By.linkText("Site développé par ABC Group"));
     public static final BlockElement siteDeveloppeParAbcGroup = new BlockElement("Site développé par ABC Group",
-            By.linkText("Site développé par ABC Group"));
+            By.xpath("//span/a[@href='https://www.ab-consulting.co/']"));
 
     public static final BlockElement iconLinkedIn2 = new BlockElement("Icone linkedin 2",
             By.xpath("//div[@data-id='bb12c4a']"));
